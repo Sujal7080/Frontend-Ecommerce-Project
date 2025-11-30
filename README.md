@@ -21,9 +21,6 @@ A responsive multi-page e-commerce website created using pure HTML and CSS.
 
 The website layout was implemented using a professional UI design template.
 
-📄 View Design Template:
-design/website-template.pdf
-
 🎨 Design Credit
 
 The UI design of this website is based on a Figma community template created by Hamza Naeem.
