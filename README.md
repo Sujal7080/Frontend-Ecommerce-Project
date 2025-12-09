@@ -1,6 +1,6 @@
 # E-Commerce Website (HTML & CSS)
 
-A responsive multi-page e-commerce website created using pure HTML and CSS.
+A responsive multi-page e-commerce website created using HTML and CSS.
 
 ## 📱 Pages
 
