@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cart.css">
+  <title>Cart</title>
+</head>
+
+<body>
+  <!-- Top Bar -->
+  <div class="top_bar">
+    <div class="left_side">
+      <p>Sign up and get 20% off to your first order.</p>
+      <a href="#" class="signup_now">Sign Up Now</a>
+    </div>
+    <div class="right_side">
+      <img src="Images\Cross.png" alt class="cross" />
+    </div>
+  </div>
+
+  <!-- Nav Bar -->
+  <nav>
+    <!-- Hamburger Menu Button (Mobile Only) -->
+    <button class="menu_btn" id="menuBtn" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <div class="logo">SHOP.CO</div>
+    
+    <div class="cart_profile_mobile">
+      <img src="Images\Cart.png" alt class="cart" />
+      <img src="Images\Profile.png" alt class="profile" />
+    </div>
+    
+    <div class="links" id="navLinks">
+      <ul>
+        <li>
+          <a href="#">Shop</a>
+          <img src="Images\down_arrow.png" alt class="down_arrow" />
+        </li>
+        <li><a href="#">On sale</a></li>
+        <li><a href="#">New Arrivals</a></li>
+        <li><a href="#">Brands</a></li>
+      </ul>
+      <div class="search_box">
+        <img src="Images\Search.png" class="search_icon" />
+        <input type="text" placeholder="Search for products..." />
+      </div>
+      <div class="cart_profile">
+        <img src="Images\Cart.png" alt class="cart" />
+        <img src="Images\Profile.png" alt class="profile" />
+      </div>
+    </div>
+  </nav>
+
+  <!-- Cart Page -->
+  <section class="cart_page">
+    <div class="tabs">
+      <a href="#">Home <img src="Images/greaterthan.png" /></a>
+      <a href="#" class="black">Cart</a>
+    </div>
+    <h1 class="title">Your Cart</h1>
+
+    <div class="your_cart">
+      <div class="left">
+        <!-- Item 1 -->
+        <div class="cart-item">
+
+          <div class="item-left">
+            <div class="item-image">
+              <img src="Images/gradient_tshirt.png" alt="">
+            </div>
+            <div class="cart-item-info">
+              <p class="item-name">Gradient Graphic T-shirt</p>
+              <p class="item-meta">Size: Large</p>
+              <p class="item-meta">Color: White</p>
+              <p class="price">$145</p>
+            </div>
+          </div>
+
+          <div class="item-right">
+            <img src="Images/bin.png" alt="" class="bin">
+            <div class="qty">
+              <button type="button" class="qty-btn">−</button>
+              <div class="qty-value">1</div>
+              <button type="button" class="qty-btn">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="rule"></div>
+
+        <!-- Item 2 -->
+        <div class="cart-item">
+
+          <div class="item-left">
+            <div class="item-image">
+              <img src="Images/shirt.png" alt="">
+            </div>
+            <div class="cart-item-info">
+              <p class="item-name">Checkered Shirt</p>
+              <p class="item-meta">Size: Medium</p>
+              <p class="item-meta">Color: Red</p>
+              <p class="price">$180</p>
+            </div>
+          </div>
+
+          <div class="item-right">
+            <img src="Images/bin.png" alt="" class="bin">
+            <div class="qty">
+              <button type="button" class="qty-btn">−</button>
+              <div class="qty-value">1</div>
+              <button type="button" class="qty-btn">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="rule"></div>
+
+        <!-- Item 3 -->
+        <div class="cart-item">
+          <div class="item-left">
+            <div class="item-image">
+              <img src="Images/Jeans.png" alt="">
+            </div>
+            <div class="cart-item-info">
+              <p class="item-name">Skinny Fit Jeans</p>
+              <p class="item-meta">Size: Large</p>
+              <p class="item-meta">Color: Blue</p>
+              <p class="price">$240</p>
+            </div>
+          </div>
+
+          <div class="item-right">
+            <img src="Images/bin.png" alt="" class="bin">
+            <div class="qty">
+              <button type="button" class="qty-btn">−</button>
+              <div class="qty-value">1</div>
+              <button type="button" class="qty-btn">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <h1 class="tag">Order Summary</h1>
+        <div class="summary">
+          <div class="summary_row">
+            <span>Subtotal</span>
+            <span class="summary_value">$565</span>
+          </div>
+          <div class="summary_row">
+            <span>Discount (-20%)</span>
+            <span class="summary_value_discount">-$113</span>
+          </div>
+          <div class="summary_row">
+            <span>Delivery Fee</span>
+            <span class="summary_value">$15</span>
+          </div>
+
+          <div class="rule"></div>
+
+          <div class="total_row">
+            <span>Total</span>
+            <span class="summary_total">$467</span>
+          </div>
+
+          <div class="promo-row">
+            <div class="coupon">
+              <img src="Images/promo.png" alt="" class="promo">
+              <input type="text" placeholder="Add promo code">
+            </div>
+            <button class="promo-apply">Apply</button>
+          </div>
+
+          <button type="button" class="checkout-btn">
+            Go to Checkout →
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+   <footer>
+    <div class="updates">
+      <h1 class="offers">
+        Stay Upto Date About<br />
+        Our Latest Offers
+      </h1>
+      <div class="newsletter">
+        <img src="Images\Email.png" alt="" class="email_icon" />
+        <input type="text" placeholder="Enter your email address" class="enter_email" />
+        <button class="subscribe">Subscribe to Newsletter</button>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="right">
+        <div class="logo">SHOP.CO</div>
+        <p>
+          We have clothes that suits your style and which you're proud to wear. From women to men.
+        </p>
+        <div class="media_icons">
+          <img src="Images/Twitter.png" alt="">
+          <img src="Images/Facebook.png" alt="">
+          <img src="Images/Insta.png" alt="">
+          <img src="Images/Git.png" alt="">
+        </div>
+      </div>
+
+      <div class="left">
+        <div class="links">
+          <h4>Company</h4>
+          <ul>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Features</a>
+            </li>
+            <li>
+              <a href="#">Work</a>
+            </li>
+            <li>
+              <a href="#">Carrer</a>
+            </li>
+          </ul>
+        </div>
+        <div class="links">
+          <h4>Help</h4>
+          <ul>
+            <li>
+              <a href="#">Customer Support</a>
+            </li>
+            <li>
+              <a href="#">Delivery Details</a>
+            </li>
+            <li>
+              <a href="#">Terms & Condition</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+        <div class="links">
+          <h4>Faq</h4>
+          <ul>
+            <li>
+              <a href="#">Account</a>
+            </li>
+            <li>
+              <a href="#">Manage Deliveries</a>
+            </li>
+            <li>
+              <a href="#">Orders</a>
+            </li>
+            <li>
+              <a href="#">Payments</a>
+            </li>
+          </ul>
+        </div>
+        <div class="links">
+          <h4>Resources</h4>
+          <ul>
+            <li>
+              <a href="#">Free eBooks</a>
+            </li>
+            <li>
+              <a href="#">Development Tutorial</a>
+            </li>
+            <li>
+              <a href="#">How to - Blog</a>
+            </li>
+            <li>
+              <a href="#">Youtube Playlist</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="rule"></div>
+
+    <div class="bottom_bar">
+      <p class="trademark">Shop.co © 2000-2023, All Rights Reserved</p>
+      <div class="payments_icons">
+        <img src="Images/Visa.png" alt="">
+        <img src="Images/mastercard.png" alt="">
+        <img src="Images/paypal.png" alt="">
+        <img src="Images/apple.png" alt="">
+        <img src="Images/gpay.png" alt="">
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('menuBtn');
+    const navLinks = document.getElementById('navLinks');
+    
+    menuBtn.addEventListener('click', function() {
+      navLinks.classList.toggle('active');
+      menuBtn.classList.toggle('active');
+    });
+    
+    // Close menu when clicking outside
+    document.addEventListener('click', function(event) {
+      const isClickInsideNav = navLinks.contains(event.target);
+      const isClickOnMenuBtn = menuBtn.contains(event.target);
+      
+      if (!isClickInsideNav && !isClickOnMenuBtn && navLinks.classList.contains('active')) {
+        navLinks.classList.remove('active');
+        menuBtn.classList.remove('active');
+      }
+    });
+  </script>
+</body>
+
+</html>
