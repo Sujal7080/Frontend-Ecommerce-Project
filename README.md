@@ -4,7 +4,7 @@ A responsive multi-page e-commerce website created using HTML and CSS.
 
 ## 📱 Pages
 
-1. **Homepage** (`Homepage.html`)
+1. **Homepage** (`Index.html`)
    - Hero section with call-to-action
    - New arrivals showcase
    - Top selling products
